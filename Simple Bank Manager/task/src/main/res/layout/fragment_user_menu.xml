@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserMenuFragment">
+
+    <TextView
+        android:id="@+id/userMenuWelcomeTextView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:text="@string/welcome"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/userMenuViewBalanceButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="@string/view_balance" />
+
+    <Button
+        android:id="@+id/userMenuTransferFundsButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/transfer_funds" />
+
+    <Button
+        android:id="@+id/userMenuExchangeCalculatorButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/calculate_exchange" />
+
+    <Button
+        android:id="@+id/userMenuPayBillsButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="@string/pay_bills" />
+
+</FrameLayout>

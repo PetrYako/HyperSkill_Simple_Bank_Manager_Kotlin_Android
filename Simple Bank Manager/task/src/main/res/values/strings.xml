@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Simple Bank Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="log_in">log in</string>
+    <string name="welcome">Welcome</string>
+    <string name="view_balance">view balance</string>
+    <string name="transfer_funds">transfer funds</string>
+    <string name="calculate_exchange">calculate exchange</string>
+    <string name="pay_bills">pay bills</string>
+    <string-array name="exchange_list">
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+    </string-array>
+</resources>
